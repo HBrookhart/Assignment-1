@@ -95,13 +95,22 @@ public class ComplexCalculator {
 	 * returns a boolean
 	 * true if the current number is prime, false otherwise
 	 */
-	/*public boolean isPrime() {
+	public boolean isPrime() {
 		double d = getCurrentNumber();
 		boolean result = false; //default is false
-		if (d%2 != 0) {
+		if (d<=1) { //if number is less than 1 number is not prime
+			result = false;
+		}
+		else if (d%2==0 || d%3==0) { //if the number can be divided by any number other than 1 and itself it is not prime
+			result = false;
+		}
+		else if (d==2 || d==3) { //if the number is equal to 2 or 3 it is prime
+			result = true;
+		}
+		else {
 			result = true;
 		}
 		return result;
-	}*/
+	}
 	
 }

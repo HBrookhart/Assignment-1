@@ -50,14 +50,14 @@ public class CalculatorMain {
 		System.out.println("Challenge 2 - Is " + c.getCurrentNumber() + " even?");
 		System.out.println("Expected Answer: false, Calculated Answer: " + c.isEven() + "\n");
 		
-		/*System.out.println("Challenge 3 - Is " + c.getCurrentNumber() + " a prime number?");
+		System.out.println("Challenge 3 - Is " + c.getCurrentNumber() + " a prime number?");
 		System.out.println("Expected Answer: true, Calculated Answer: " + c.isPrime() + "\n");
 		
 		c.add(1);
 		
 		System.out.println("Challenge 4 - Is " + c.getCurrentNumber() + " a prime number?");
 		System.out.println("Expected Answer: false, Calculated Answer: " + c.isPrime());
-		*/
+		
 	}
 
 }
