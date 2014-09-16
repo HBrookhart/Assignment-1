@@ -101,7 +101,7 @@ public class ComplexCalculator {
 		if (d<=1) { //if number is less than 1 number is not prime
 			result = false;
 		}
-		else if (d%2==0 || d%3==0) { //if the number can be divided by any number other than 1 and itself it is not prime
+		else if (d%2==0 || d%3==0 || d%5==0 || d%7==0) { //if the number can be divided by any number other than 1 and itself it is not prime
 			result = false;
 		}
 		else if (d==2 || d==3) { //if the number is equal to 2 or 3 it is prime
